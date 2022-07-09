@@ -17,14 +17,17 @@
 }
 
 .mobal-menu {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 356px;
   height: 100%;
   background-color: white;
   padding: 100px 62px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transform: translateX(20%);
+  //   transform: translateX(20%);
 }
 
 .close-modal-btn {
