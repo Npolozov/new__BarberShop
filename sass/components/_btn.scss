@@ -1,0 +1,23 @@
+.btn {
+  width: 194px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: 1px solid var(--orange-color);
+  background-color: transparent;
+  border-radius: 30px;
+
+  &--light {
+    color: var(--black-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--white-color);
+    background-color: var(--orange-color);
+  }
+}
