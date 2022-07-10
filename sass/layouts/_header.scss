@@ -18,6 +18,9 @@
 }
 
 .open-mobal_btn {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
   border: none;
   background-color: transparent;
   margin: 0;

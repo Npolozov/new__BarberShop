@@ -1,4 +1,7 @@
 .backdrop {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -17,22 +20,22 @@
 }
 
 .mobal-menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 356px;
+  //   //   position: absolute;
+  //   top: 0;
+  //   left: 110px;
+  width: 100%;
   height: 100%;
   background-color: white;
   padding: 100px 62px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //   transform: translateX(20%);
+  transform: translateX(20%);
 }
 
 .close-modal-btn {
   position: absolute;
-  top: 45px;
+  top: 21px;
   left: 299px;
   border: none;
   background-color: transparent;
