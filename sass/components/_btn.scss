@@ -10,6 +10,7 @@
   border: 1px solid var(--orange-color);
   background-color: transparent;
   border-radius: 30px;
+  transition: color 250ms linear, background-color 250ms linear;
 
   &--light {
     color: var(--black-color);
