@@ -11,12 +11,6 @@
   }
 }
 
-.header .conteiner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .open-mobal_btn {
   @media screen and (min-width: 768px) {
     display: none;
