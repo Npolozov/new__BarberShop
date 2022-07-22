@@ -199,6 +199,10 @@ img {
   }
 }
 
+.hero_social {
+  background-color: white;
+}
+
 .backdrop {
   position: fixed;
   z-index: 999;
