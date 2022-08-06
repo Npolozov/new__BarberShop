@@ -6,4 +6,10 @@
   letter-spacing: 0.05em;
   color: var(--white-color);
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+  }
 }

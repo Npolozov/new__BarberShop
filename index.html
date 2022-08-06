@@ -19,13 +19,43 @@
   <body>
     <header class="header">
       <div class="conteiner">
+        <a href="./index.html" class="logo-link link">
+          <svg class="header-logo" width="70" height="60">
+            <use href="./img/svg-header/symbol-defs.svg#icon-Logo"></use>
+          </svg>
+        </a>
         <nav>
-          <a href="./index.html" class="logo-link link">
-            <svg class="header-logo" width="70" height="60">
-              <use href="./img/svg-header/symbol-defs.svg#icon-Logo"></use>
-            </svg>
-          </a>
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a
+                class="link navigation__link navigation__link--current"
+                href="#about"
+                >О нас</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a class="link navigation__link" href="#price">Услуги и цены</a>
+            </li>
+            <li class="navigation__item">
+              <a class="link navigation__link" href="#team">Мастера</a>
+            </li>
+            <li class="navigation__item">
+              <a class="link navigation__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
         </nav>
+        <div class="header__gruop">
+          <a class="link header__phone" href="tel:380441111111"
+            >+38 044 111 11 11</a
+          >
+          <button
+            class="btn btn--mode-dark header__btn"
+            type="button"
+            data-modal-open
+          >
+            онлайн-запись
+          </button>
+        </div>
         <button
           type="button"
           class="open-mobal_btn js-open-menu"
@@ -42,9 +72,25 @@
       <section class="hero">
         <div class="conteiner">
           <div class="hero-social">
-            <ul>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+            <ul class="hero__list list">
+              <li class="social-links-item">
+                <a
+                  class="social-links-item-link mobal_soc--before link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="social-links-item">
+                <a
+                  class="social-links-item-link link"
+                  href="htts://www.youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Youtube</a
+                >
+              </li>
             </ul>
           </div>
           <div class="hero-content">

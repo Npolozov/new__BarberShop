@@ -1,5 +1,6 @@
 .header {
   position: absolute;
+  z-index: 10;
   width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -30,4 +31,60 @@
 .logo-link {
   width: 70px;
   height: 60px;
+  margin-right: 60px;
+}
+
+.header-logo {
+  fill: white;
+  @media screen and (min-width: 768px) {
+    fill: #303030;
+  }
+}
+
+.navigation__list {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 24px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 40px;
+  }
+}
+
+.navigation__link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.header__gruop {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-left: auto;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+
+.header__phone {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-right: 30px;
 }

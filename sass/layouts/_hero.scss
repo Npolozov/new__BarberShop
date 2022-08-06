@@ -1,6 +1,11 @@
 .hero .conteiner {
-  width: 100%;
   padding: 0;
+  display: flex;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .hero-content {
@@ -67,6 +72,34 @@
   }
 }
 
-.hero_social {
-  background-color: white;
+.hero-social {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: flex-end;
+
+    width: 100px;
+  }
+}
+
+.hero__list {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg) translateY(100%);
+  transform-origin: left top;
+}
+
+.social-links-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.social-links-item-link {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
 }
