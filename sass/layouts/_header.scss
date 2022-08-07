@@ -65,10 +65,22 @@
   color: #ffffff;
 }
 
+.header_group {
+  margin-left: auto;
+}
+
 .tel-conteiner {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: block;
   position: absolute;
   top: 100px;
   right: 60px;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .header__phone {

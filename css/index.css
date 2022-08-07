@@ -217,10 +217,25 @@ img {
   color: #ffffff;
 }
 
+.header_group {
+  margin-left: auto;
+}
+
 .tel-conteiner {
+  display: block;
   position: absolute;
   top: 100px;
   right: 60px;
+}
+@media screen and (max-width: 767px) {
+  .tel-conteiner {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tel-conteiner {
+    display: none;
+  }
 }
 
 .header__phone {
