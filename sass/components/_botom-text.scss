@@ -13,4 +13,17 @@
     font-size: 18px;
     max-width: 400px;
   }
+
+  &.about {
+    max-width: 100%;
+    color: #555555;
+    margin-bottom: 20px;
+  }
+
+  &.paragraf {
+    max-width: 100%;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 40px;
+  }
 }

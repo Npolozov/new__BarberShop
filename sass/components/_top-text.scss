@@ -9,6 +9,10 @@
   align-items: center;
   margin-bottom: 20px;
 
+  &.about {
+    color: #303030;
+  }
+
   &::before {
     content: "";
     width: 60px;
