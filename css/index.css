@@ -144,6 +144,7 @@ img {
 
 .header__btn {
   color: #ffffff;
+  margin-left: auto;
 }
 
 .header {
@@ -156,7 +157,6 @@ img {
 .header .conteiner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .open-mobal_btn {
@@ -217,21 +217,10 @@ img {
   color: #ffffff;
 }
 
-.header__gruop {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  margin-left: auto;
-}
-@media screen and (max-width: 767px) {
-  .header__gruop {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header__gruop {
-    flex-direction: row;
-  }
+.tel-conteiner {
+  position: absolute;
+  top: 100px;
+  right: 60px;
 }
 
 .header__phone {
@@ -240,7 +229,13 @@ img {
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: #ffffff;
-  margin-right: 30px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .header__phone {
+    margin-right: 30px;
+    margin-top: 0px;
+  }
 }
 
 .hero .conteiner {
