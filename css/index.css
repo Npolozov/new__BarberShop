@@ -157,6 +157,7 @@ img {
 .header .conteiner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .open-mobal_btn {
@@ -218,7 +219,13 @@ img {
 }
 
 .header_group {
+  display: block;
   margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .header_group {
+    display: none;
+  }
 }
 
 .tel-conteiner {

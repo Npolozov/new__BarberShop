@@ -8,6 +8,7 @@
   & .conteiner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -66,6 +67,10 @@
 }
 
 .header_group {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: block;
   margin-left: auto;
 }
 
