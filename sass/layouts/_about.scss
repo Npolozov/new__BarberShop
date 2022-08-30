@@ -1,0 +1,13 @@
+.conteiner {
+  &.about {
+    display: flex;
+  }
+}
+
+.about_list--photo {
+  margin-right: 30px;
+}
+
+.about_item--photo:not(:last-child) {
+  margin-bottom: 30px;
+}

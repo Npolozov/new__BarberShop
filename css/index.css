@@ -68,8 +68,6 @@ img {
 @media screen and (min-width: 1200px) {
   .conteiner {
     width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 
@@ -141,11 +139,22 @@ img {
   color: #555555;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .botom-text.about {
+    width: 330px;
+  }
+}
 .botom-text.paragraf {
   max-width: 100%;
   font-size: 14px;
   color: #555;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .botom-text.paragraf {
+    width: 330px;
+    margin-bottom: 52px;
+  }
 }
 
 .btn {
@@ -347,14 +356,14 @@ img {
   .hero-social {
     display: flex;
     align-items: flex-end;
-    width: 100px;
+    width: 90px;
   }
 }
 
 .hero__list {
   display: flex;
   align-items: center;
-  transform: rotate(-90deg) translateY(100%);
+  transform: rotate(-90deg) translateY(25px);
   transform-origin: left top;
 }
 
@@ -365,7 +374,6 @@ img {
 .social-links-item-link {
   display: flex;
   align-items: center;
-  margin-top: 10px;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -489,4 +497,16 @@ img {
 
 .mobal_soc--margin {
   margin-left: 100px;
+}
+
+.conteiner.about {
+  display: flex;
+}
+
+.about_list--photo {
+  margin-right: 30px;
+}
+
+.about_item--photo:not(:last-child) {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=index.css.map */
