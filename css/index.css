@@ -49,7 +49,6 @@ img {
 }
 
 .conteiner {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -410,9 +409,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: white;
-  padding: 80px 62px 25px;
-  overflow-x: hidden;
-  overflow-y: auto;
+  padding: 100px 62px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -421,8 +418,8 @@ img {
 
 .close-modal-btn {
   position: absolute;
-  top: 35px;
-  right: 135px;
+  top: 48px;
+  right: 120px;
   border: none;
   background-color: transparent;
   margin: 0;
