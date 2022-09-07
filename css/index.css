@@ -410,7 +410,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: white;
-  padding: 100px 62px 10px;
+  padding: 80px 62px 25px;
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
@@ -421,8 +421,8 @@ img {
 
 .close-modal-btn {
   position: absolute;
-  top: 48px;
-  right: 120px;
+  top: 35px;
+  right: 135px;
   border: none;
   background-color: transparent;
   margin: 0;
