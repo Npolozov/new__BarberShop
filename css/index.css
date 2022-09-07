@@ -49,6 +49,7 @@ img {
 }
 
 .conteiner {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -56,7 +57,7 @@ img {
 }
 @media screen and (min-width: 320px) {
   .conteiner {
-    width: 448px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -504,6 +505,11 @@ img {
 
 .about_list--photo {
   margin-right: 30px;
+}
+@media screen and (max-width: 767px) {
+  .about_list--photo {
+    display: none;
+  }
 }
 
 .about_item--photo:not(:last-child) {

@@ -5,6 +5,9 @@
 }
 
 .about_list--photo {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
   margin-right: 30px;
 }
 
