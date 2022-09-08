@@ -30,6 +30,8 @@
   flex-direction: column;
   justify-content: space-between;
   transition: transform 250ms linear;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .close-modal-btn {
