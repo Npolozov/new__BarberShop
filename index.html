@@ -55,9 +55,10 @@
         </div>
         <button
           type="button"
-          class="open-mobal_btn js-open-menu"
+          class="open-mobal_btn js-scroll-off"
           aria-expanded="false"
           aria-controls="mobile-menu"
+          data-menu-button
         >
           <svg width="40" height="40" class="mobal-svg mobal-svg--white">
             <use href="./img/svg-header/symbol-defs.svg#icon-Mobal-menu"></use>
@@ -169,9 +170,9 @@
       </div>
     </section>
     <!-- --------------------------------Mobal Menu-------------------------- -->
-    <div class="backdrop js-menu-container" id="mobile-menu">
+    <div class="backdrop" data-menu>
       <div class="mobal-menu">
-        <button type="button" class="close-modal-btn js-close-menu">
+        <button type="button" class="close-modal-btn js-scroll-on" data-menu-button>
           <svg width="40" height="40" class="mobal-svg">
             <use href="./img/svg-header/symbol-defs.svg#icon-close_40px"></use>
           </svg>
@@ -209,12 +210,7 @@
       </div>
     </div>
     <!-- --------------------------------Mobal Menu-------------------------- -->
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/menu.js"></script>
+    <script src="./js/skroll-off.js"></script>
+    <script src="./js/mobal-menu.js"></script>
   </body>
 </html>
