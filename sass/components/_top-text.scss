@@ -13,6 +13,11 @@
     color: #303030;
   }
 
+  &.price {
+    font-size: 9px;
+    color: rgba(157, 164, 189, 0.6);
+  }
+
   &::before {
     content: "";
     width: 60px;

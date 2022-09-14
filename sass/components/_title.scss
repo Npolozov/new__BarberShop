@@ -1,5 +1,4 @@
 .title {
-  max-width: 306px;
   font-family: "Raleway";
   font-size: 48px;
   line-height: 1.16;
@@ -12,10 +11,35 @@
     line-height: 1.18;
     letter-spacing: 0.05em;
   }
-
+// -------------------------About------------------------
   &.about {
     font-size: 28px;
     line-height: 1.16;
     color: #303030;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 42px;
+      max-width: 483px;
+    }
   }
+// -------------------------Price------------------------
+  &.price {
+    font-size: 28px;
+    margin-bottom: 44px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 42px;
+    }
+  }
+// -------------------------School------------------------
+  &.school {
+    font-size: 36px;
+    color: var(--black-color);
+    width: 418px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 42px;
+    }
+
+}
 }

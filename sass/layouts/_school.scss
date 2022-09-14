@@ -1,0 +1,75 @@
+.conteiner.school{
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+      }
+    
+}
+
+.school-list {
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    @media screen and (min-width: 1200px) {
+        margin: 0;
+      }
+}
+
+.school-item {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    width: 170px;
+    height: 133px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.school-item:nth-child(odd) {
+    margin-right: 25px;
+  }
+  
+  .school-item:nth-child(even) {
+    margin-top: 30px;
+  }
+
+
+.school-number {
+    position: relative;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.35;
+text-align: center;
+letter-spacing: 0.05em;
+color: var(--bottom-text-color);
+}
+
+.school-number::after{
+    content: '+';
+    position: absolute;
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.38;
+color: var(--orange-color);
+}
+
+.school-text {
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+color: var(--bottom-text-color);
+text-align: center;
+}
+
+
+.bottom-text-school {
+    margin-bottom: 44px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: #555555;
+width: 500px;
+}
