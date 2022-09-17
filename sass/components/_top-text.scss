@@ -18,6 +18,10 @@
     color: rgba(157, 164, 189, 0.6);
   }
 
+  &.school {
+    color: var( --bottom-text-color);
+  }
+
   &::before {
     content: "";
     width: 60px;

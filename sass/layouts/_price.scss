@@ -106,8 +106,16 @@ justify-content: space-between;
   }
 }
 
-.item-prise-one:not(:only-child),
-.item-prise-two:not(:only-child) {
+.item-prise-one:last-child{
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+ 
+}
+
+
+.item-prise-one:not(:last-child),
+.item-prise-two:not(:last-child) {
     margin-bottom: 20px;
 }
 

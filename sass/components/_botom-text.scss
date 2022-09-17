@@ -4,7 +4,6 @@
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9DA4BD;
-  max-width: 306px;
 
   @media screen and (min-width: 768px) {
     width: 349px;
@@ -15,9 +14,10 @@
   }
 // -------------------------About------------------------
   &.about {
-    max-width: 418px;
+    width: 418px;
     color: #555555;
     margin-bottom: 20px;
+
     @media screen and (min-width: 768px) {
       width: 330px;
     }
@@ -29,7 +29,7 @@
   }
 
   &.paragraf {
-    max-width: 418px;
+    width: 418px;
     font-size: 14px;
     color: #555;
     margin-bottom: 40px;

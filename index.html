@@ -117,6 +117,7 @@
                   ./img/about/img1comp.jpg    1x,
                   ./img/about/img1comp@2x.jpg 2x
                 "
+              
                 media="(min-width: 1200px)"
               />
               <source
@@ -124,6 +125,7 @@
                   ./img/about/img1tab.jpg    1x,
                   ./img/about/img1tab@2x.jpg 2x
                 "
+                width="100%"
                 media="(min-width: 768px)"
               />
               <img src="./img/about/img1tab.jpg " alt="фото1" />
@@ -151,7 +153,7 @@
         </ul>
         <div>
           <p class="top-text about" lang="en">О НАС</p>
-          <h1 class="title about">Лучший Барбершоп твоего города</h1>
+          <h2 class="title about">Лучший Барбершоп твоего города</h2>
           <p class="bottom-text about">
             Если ты хочешь добавить в свой образ больше уверенности – тебе точно
             к нам.
@@ -203,7 +205,7 @@
     <!-- --------------------------school-------------------------- -->
     <section>
       <div class="conteiner school">
-        <div>        <p class="top-text">старая традиционная школа</p>
+        <div>        <p class="top-text school">старая традиционная школа</p>
           <h2 class="title school">Почему приходят именно к нам?</h2>
           <p class="bottom-text-school">О нас говорят только хорошее. Но лучше 
             1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p></div>
@@ -225,6 +227,28 @@
               <span class="school-text">Подарков постоянным клиентам</span>
             </li>
           </ul>
+      </div>
+    </section>
+    <section class="form">
+      <div class="conteiner">
+        <h2 class="title form">Онлайн-запись</h2>
+        <form class="form">
+          <div class="input-conteiner">
+            <input class="input" type="text" name="username" placeholder=" "/>
+            <label class="online-label">Имя*
+          </label></div>
+          
+          <div class="input-conteiner">
+            <input class="input" type="tel" name="usertel" placeholder=" "/>
+            <label class="online-label">Телефон*
+          </label></div>
+     
+          <div class="input-conteiner">
+            <label>            <input class="input_textarea" type="text" name="feedback" rows="5" placeholder="сообщение*"/>
+            </label></div>
+
+        </form>
+        <button class="btn form__btn">отправить</button>
       </div>
     </section>
     <!-- --------------------------------Mobal Menu-------------------------- -->

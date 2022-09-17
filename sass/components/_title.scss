@@ -13,13 +13,14 @@
   }
 // -------------------------About------------------------
   &.about {
+    width: 330px;
     font-size: 28px;
     line-height: 1.16;
     color: #303030;
 
     @media screen and (min-width: 1200px) {
       font-size: 42px;
-      max-width: 483px;
+      width: 483px;
     }
   }
 // -------------------------Price------------------------
@@ -41,5 +42,11 @@
       font-size: 42px;
     }
 
+}
+// --------------------------form-----------------------
+&.form {
+  margin-bottom: 44px;
+  text-align: center;
+  font-size: 36px;
 }
 }
