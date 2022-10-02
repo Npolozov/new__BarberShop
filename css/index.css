@@ -859,4 +859,35 @@ section.form {
 .input:not(:placeholder-shown) + .online-label {
   color: #ffffff;
   transform: translateY(-100%);
+}
+
+section.contact {
+  padding: 0;
+}
+@media screen and (max-width: 1199px) {
+  section.contact {
+    background-color: #303030;
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../img/contact/imgTell.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 208px 0 183px 31px;
+    flex-grow: 1;
+  }
+}
+@media screen and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (max-width: 1199px) and (min-resolution: 192dpi), screen and (max-width: 1199px) and (min-resolution: 2dppx) {
+  section.contact {
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../img/contact/imgTell.jpg);
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  section.contact {
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../img/contact/imgTab.jpg);
+    padding: 280px 70px 234px;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 1199px) and (min-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 1199px) and (min-width: 768px) and (min-resolution: 2dppx) {
+  section.contact {
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../img/contact/imgTab.jpg);
+  }
 }/*# sourceMappingURL=index.css.map */
